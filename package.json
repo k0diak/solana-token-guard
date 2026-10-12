@@ -1,0 +1,16 @@
+{
+  "name": "solana-token-guard",
+  "version": "0.1.0",
+  "description": "Explainable pre-trade risk checks for Solana tokens, for AI agents, wallets and bots. Keyless, open source.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Scott Astle (k0diak)",
+  "engines": { "node": ">=22.18" },
+  "main": "./src/index.ts",
+  "bin": { "solana-token-guard": "./src/cli.ts" },
+  "scripts": {
+    "test": "node --test \"test/**/*.test.ts\"",
+    "check": "node src/cli.ts"
+  },
+  "keywords": ["solana", "token", "rug-pull", "risk", "ai-agent", "mcp", "security", "token-2022"]
+}
